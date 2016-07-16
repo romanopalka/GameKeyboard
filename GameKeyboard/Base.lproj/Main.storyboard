@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="GameKeyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7D-nR-xwE">
+                                <rect key="frame" x="0.0" y="536" width="600" height="64"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Fv-m9-bCb">
+                                        <rect key="frame" x="64" y="12" width="460" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Kza-76-hEG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTa-yI-nu8">
+                                        <rect key="frame" x="8" y="8" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="BTa-yI-nu8" secondAttribute="height" multiplier="1:1" id="d6w-IS-TD5"/>
+                                        </constraints>
+                                        <state key="normal" image="arrow_icon"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-Zg-dpo">
+                                        <rect key="frame" x="532" y="8" width="60" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="cHo-tk-agP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="onSend:" destination="BV1-FR-VrT" eventType="touchUpInside" id="lvv-q6-n2m"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="8Fv-m9-bCb" firstAttribute="leading" secondItem="BTa-yI-nu8" secondAttribute="trailing" constant="8" id="07q-aV-0tp"/>
+                                    <constraint firstAttribute="height" constant="64" id="4gD-MI-6fT"/>
+                                    <constraint firstItem="Jgy-Zg-dpo" firstAttribute="top" secondItem="u7D-nR-xwE" secondAttribute="top" constant="8" id="7Ma-pn-pqs"/>
+                                    <constraint firstItem="BTa-yI-nu8" firstAttribute="top" secondItem="u7D-nR-xwE" secondAttribute="top" constant="8" id="9e8-ac-rJ9"/>
+                                    <constraint firstItem="Jgy-Zg-dpo" firstAttribute="leading" secondItem="8Fv-m9-bCb" secondAttribute="trailing" constant="8" id="STy-v9-yao"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jgy-Zg-dpo" secondAttribute="trailing" constant="8" id="j4H-UW-Z4u"/>
+                                    <constraint firstAttribute="bottom" secondItem="BTa-yI-nu8" secondAttribute="bottom" constant="8" id="kA4-Ix-izb"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jgy-Zg-dpo" secondAttribute="bottom" constant="8" id="lOh-Qr-MvN"/>
+                                    <constraint firstItem="BTa-yI-nu8" firstAttribute="leading" secondItem="u7D-nR-xwE" secondAttribute="leading" constant="8" id="mz4-c3-PE8"/>
+                                    <constraint firstItem="8Fv-m9-bCb" firstAttribute="centerY" secondItem="u7D-nR-xwE" secondAttribute="centerY" id="ntU-bz-eMW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="u7D-nR-xwE" secondAttribute="trailing" id="BPa-J8-WdU"/>
+                            <constraint firstItem="u7D-nR-xwE" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leading" id="dU7-5K-OWs"/>
+                            <constraint firstAttribute="bottom" secondItem="u7D-nR-xwE" secondAttribute="bottom" id="pTb-vy-pXd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLayout" destination="pTb-vy-pXd" id="gS3-8x-035"/>
+                        <outlet property="inputMenuView" destination="u7D-nR-xwE" id="vMi-Fd-oGF"/>
+                        <outlet property="txtInput" destination="8Fv-m9-bCb" id="Kdt-pj-LaL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow_icon" width="256" height="256"/>
+    </resources>
+</document>

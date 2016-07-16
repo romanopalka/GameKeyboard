@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D6E17A1D39DD31008551BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E1791D39DD31008551BE /* AppDelegate.swift */; };
+		30D6E17C1D39DD31008551BE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30D6E17B1D39DD31008551BE /* GameScene.sks */; };
+		30D6E17E1D39DD31008551BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E17D1D39DD31008551BE /* GameScene.swift */; };
+		30D6E1801D39DD31008551BE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E17F1D39DD31008551BE /* GameViewController.swift */; };
+		30D6E1831D39DD31008551BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D6E1811D39DD31008551BE /* Main.storyboard */; };
+		30D6E1851D39DD31008551BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D6E1841D39DD31008551BE /* Assets.xcassets */; };
+		30D6E1881D39DD31008551BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D6E1861D39DD31008551BE /* LaunchScreen.storyboard */; };
+		30D6E1931D39DD31008551BE /* GameKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E1921D39DD31008551BE /* GameKeyboardTests.swift */; };
+		30D6E19E1D39DD31008551BE /* GameKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E19D1D39DD31008551BE /* GameKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D6E18F1D39DD31008551BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D6E16E1D39DD30008551BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D6E1751D39DD30008551BE;
+			remoteInfo = GameKeyboard;
+		};
+		30D6E19A1D39DD31008551BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D6E16E1D39DD30008551BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D6E1751D39DD30008551BE;
+			remoteInfo = GameKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30D6E1761D39DD30008551BE /* GameKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6E1791D39DD31008551BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30D6E17B1D39DD31008551BE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		30D6E17D1D39DD31008551BE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30D6E17F1D39DD31008551BE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		30D6E1821D39DD31008551BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D6E1841D39DD31008551BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D6E1871D39DD31008551BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D6E1891D39DD31008551BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6E18E1D39DD31008551BE /* GameKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6E1921D39DD31008551BE /* GameKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKeyboardTests.swift; sourceTree = "<group>"; };
+		30D6E1941D39DD31008551BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6E1991D39DD31008551BE /* GameKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6E19D1D39DD31008551BE /* GameKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKeyboardUITests.swift; sourceTree = "<group>"; };
+		30D6E19F1D39DD31008551BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D6E1731D39DD30008551BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E18B1D39DD31008551BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E1961D39DD31008551BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D6E16D1D39DD30008551BE = {
+			isa = PBXGroup;
+			children = (
+				30D6E1781D39DD30008551BE /* GameKeyboard */,
+				30D6E1911D39DD31008551BE /* GameKeyboardTests */,
+				30D6E19C1D39DD31008551BE /* GameKeyboardUITests */,
+				30D6E1771D39DD30008551BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D6E1771D39DD30008551BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D6E1761D39DD30008551BE /* GameKeyboard.app */,
+				30D6E18E1D39DD31008551BE /* GameKeyboardTests.xctest */,
+				30D6E1991D39DD31008551BE /* GameKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D6E1781D39DD30008551BE /* GameKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				30D6E1791D39DD31008551BE /* AppDelegate.swift */,
+				30D6E17B1D39DD31008551BE /* GameScene.sks */,
+				30D6E17D1D39DD31008551BE /* GameScene.swift */,
+				30D6E17F1D39DD31008551BE /* GameViewController.swift */,
+				30D6E1811D39DD31008551BE /* Main.storyboard */,
+				30D6E1841D39DD31008551BE /* Assets.xcassets */,
+				30D6E1861D39DD31008551BE /* LaunchScreen.storyboard */,
+				30D6E1891D39DD31008551BE /* Info.plist */,
+			);
+			path = GameKeyboard;
+			sourceTree = "<group>";
+		};
+		30D6E1911D39DD31008551BE /* GameKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D6E1921D39DD31008551BE /* GameKeyboardTests.swift */,
+				30D6E1941D39DD31008551BE /* Info.plist */,
+			);
+			path = GameKeyboardTests;
+			sourceTree = "<group>";
+		};
+		30D6E19C1D39DD31008551BE /* GameKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D6E19D1D39DD31008551BE /* GameKeyboardUITests.swift */,
+				30D6E19F1D39DD31008551BE /* Info.plist */,
+			);
+			path = GameKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D6E1751D39DD30008551BE /* GameKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6E1A21D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboard" */;
+			buildPhases = (
+				30D6E1721D39DD30008551BE /* Sources */,
+				30D6E1731D39DD30008551BE /* Frameworks */,
+				30D6E1741D39DD30008551BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameKeyboard;
+			productName = GameKeyboard;
+			productReference = 30D6E1761D39DD30008551BE /* GameKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D6E18D1D39DD31008551BE /* GameKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6E1A51D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboardTests" */;
+			buildPhases = (
+				30D6E18A1D39DD31008551BE /* Sources */,
+				30D6E18B1D39DD31008551BE /* Frameworks */,
+				30D6E18C1D39DD31008551BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D6E1901D39DD31008551BE /* PBXTargetDependency */,
+			);
+			name = GameKeyboardTests;
+			productName = GameKeyboardTests;
+			productReference = 30D6E18E1D39DD31008551BE /* GameKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D6E1981D39DD31008551BE /* GameKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6E1A81D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboardUITests" */;
+			buildPhases = (
+				30D6E1951D39DD31008551BE /* Sources */,
+				30D6E1961D39DD31008551BE /* Frameworks */,
+				30D6E1971D39DD31008551BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D6E19B1D39DD31008551BE /* PBXTargetDependency */,
+			);
+			name = GameKeyboardUITests;
+			productName = GameKeyboardUITests;
+			productReference = 30D6E1991D39DD31008551BE /* GameKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D6E16E1D39DD30008551BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Roman;
+				TargetAttributes = {
+					30D6E1751D39DD30008551BE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					30D6E18D1D39DD31008551BE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30D6E1751D39DD30008551BE;
+					};
+					30D6E1981D39DD31008551BE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 30D6E1751D39DD30008551BE;
+					};
+				};
+			};
+			buildConfigurationList = 30D6E1711D39DD30008551BE /* Build configuration list for PBXProject "GameKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D6E16D1D39DD30008551BE;
+			productRefGroup = 30D6E1771D39DD30008551BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D6E1751D39DD30008551BE /* GameKeyboard */,
+				30D6E18D1D39DD31008551BE /* GameKeyboardTests */,
+				30D6E1981D39DD31008551BE /* GameKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D6E1741D39DD30008551BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6E17C1D39DD31008551BE /* GameScene.sks in Resources */,
+				30D6E1881D39DD31008551BE /* LaunchScreen.storyboard in Resources */,
+				30D6E1851D39DD31008551BE /* Assets.xcassets in Resources */,
+				30D6E1831D39DD31008551BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E18C1D39DD31008551BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E1971D39DD31008551BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D6E1721D39DD30008551BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6E17E1D39DD31008551BE /* GameScene.swift in Sources */,
+				30D6E1801D39DD31008551BE /* GameViewController.swift in Sources */,
+				30D6E17A1D39DD31008551BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E18A1D39DD31008551BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6E1931D39DD31008551BE /* GameKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6E1951D39DD31008551BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6E19E1D39DD31008551BE /* GameKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D6E1901D39DD31008551BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D6E1751D39DD30008551BE /* GameKeyboard */;
+			targetProxy = 30D6E18F1D39DD31008551BE /* PBXContainerItemProxy */;
+		};
+		30D6E19B1D39DD31008551BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D6E1751D39DD30008551BE /* GameKeyboard */;
+			targetProxy = 30D6E19A1D39DD31008551BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D6E1811D39DD31008551BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D6E1821D39DD31008551BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D6E1861D39DD31008551BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D6E1871D39DD31008551BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D6E1A01D39DD31008551BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D6E1A11D39DD31008551BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D6E1A31D39DD31008551BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GameKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30D6E1A41D39DD31008551BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GameKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30D6E1A61D39DD31008551BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GameKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameKeyboard.app/GameKeyboard";
+			};
+			name = Debug;
+		};
+		30D6E1A71D39DD31008551BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GameKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameKeyboard.app/GameKeyboard";
+			};
+			name = Release;
+		};
+		30D6E1A91D39DD31008551BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GameKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameKeyboard;
+			};
+			name = Debug;
+		};
+		30D6E1AA1D39DD31008551BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GameKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beauty.GameKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D6E1711D39DD30008551BE /* Build configuration list for PBXProject "GameKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6E1A01D39DD31008551BE /* Debug */,
+				30D6E1A11D39DD31008551BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6E1A21D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6E1A31D39DD31008551BE /* Debug */,
+				30D6E1A41D39DD31008551BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6E1A51D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6E1A61D39DD31008551BE /* Debug */,
+				30D6E1A71D39DD31008551BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6E1A81D39DD31008551BE /* Build configuration list for PBXNativeTarget "GameKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6E1A91D39DD31008551BE /* Debug */,
+				30D6E1AA1D39DD31008551BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D6E16E1D39DD30008551BE /* Project object */;
+}
