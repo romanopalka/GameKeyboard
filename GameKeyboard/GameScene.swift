@@ -10,13 +10,12 @@ import SpriteKit
 
 class GameScene: SKScene {
     
-    var keyboardHeight : CGFloat!
     var spriteSquare: SKSpriteNode!
     
     override func didMoveToView(view: SKView) {
         
         let screenSize = UIScreen.mainScreen().bounds.size
-        let location = CGPointMake(screenSize.width / 2.0, (screenSize.height - keyboardHeight) / 2.0 + keyboardHeight)
+        let location = CGPointMake(screenSize.width / 2.0, screenSize.height * 3 / 4)
 
         spriteSquare = SKSpriteNode(imageNamed:"square")
         
@@ -32,6 +31,7 @@ class GameScene: SKScene {
     func hideSquare()
     {
         spriteSquare.removeFromParent()
+        
     }
     
 }

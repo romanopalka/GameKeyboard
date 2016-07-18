@@ -21,12 +21,31 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        gameScene = GameScene(size: view.frame.size)
+        
+        if gameScene != nil
+        {
+            // Configure the view.
+            let skView = self.view as! SKView
+            skView.showsFPS = true
+            skView.showsNodeCount = true
+            
+            /* Sprite Kit applies additional optimizations to improve rendering performance */
+            skView.ignoresSiblingOrder = true
+            
+            /* Set the scale mode to scale to fit the window */
+            gameScene.scaleMode = .ResizeFill
+            gameScene.position = CGPointZero
+            skView.presentScene(gameScene)
+        }
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.keyboardWillShow), name: UIKeyboardWillShowNotification, object: nil)
         
         txtInput.layer.borderColor = UIColor.grayColor().CGColor
         txtInput.layer.borderWidth = 1
         txtInput.layer.cornerRadius = 5
         txtInput.becomeFirstResponder()
+        
         
     }
     
@@ -74,27 +93,7 @@ class GameViewController: UIViewController {
         let keyboardHeight = keyboardFrame.size.height
         self.bottomLayout.constant = keyboardHeight
         
-        let screenSize = UIScreen.mainScreen().bounds.size
-        let sceneHeight = screenSize.height - keyboardHeight - 64
-        let sceneSize : CGSize! = CGSize(width: screenSize.width, height: sceneHeight)
-        
-        gameScene = GameScene(size: sceneSize)
-        if gameScene != nil
-        {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            gameScene.scaleMode = .ResizeFill
-            gameScene.keyboardHeight = keyboardHeight + 64.0
-            gameScene.position = CGPointZero
-            skView.presentScene(gameScene)
-        }
+       
         
     }
     
